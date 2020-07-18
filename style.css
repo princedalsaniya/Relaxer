@@ -5,7 +5,8 @@
 }
 
 body {
-  background: rgb(80, 90, 85) url("bg.jpg") no-repeat center center/cover;
+  background: rgb(80, 90, 85) url("./img/bg-1.jpg") no-repeat center
+    center/cover;
   color: aliceblue;
   font-family: "Montserrat", sans-serif;
   min-height: 100vh;
