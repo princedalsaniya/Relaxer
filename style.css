@@ -72,7 +72,7 @@ body {
 
 .pointer {
   background-color: rgb(120, 125, 10);
-  border-radius: 50%;
+  border-radius: 35%;
   height: 2.4vh;
   width: 2.4vh;
   display: block;
