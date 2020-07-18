@@ -1,9 +1,9 @@
 const contanier = document.querySelector(".container");
 const text = document.querySelector("#text");
 
-const totalTime = 7500;
-const breathTime = (totalTime / 5) * 2;
-const holdTime = totalTime / 5;
+const totalTime = 8000;
+const breathTime = (totalTime / 8) * 3;
+const holdTime = totalTime / 8;
 
 breathAnimation();
 
@@ -18,6 +18,9 @@ function breathAnimation() {
     setTimeout(() => {
       text.innerHTML = "Breath Out!";
 
+      setTimeout(() => {
+        text.innerHTML = "Hold Again!";
+      }, breathTime);
       contanier.className = "container shrink";
     }, holdTime);
   }, breathTime);
