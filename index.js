@@ -5,6 +5,10 @@ const totalTime = 8000;
 const breathTime = (totalTime / 8) * 3;
 const holdTime = totalTime / 8;
 
+// bgSound = new Audio("bg-sound.mp3");
+// bgSound.loop = true;
+// bgSound.play();
+
 breathAnimation();
 
 function breathAnimation() {
